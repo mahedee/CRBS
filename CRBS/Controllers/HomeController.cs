@@ -10,7 +10,7 @@ namespace CRBS.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "This is mahedee.net.";
+            ViewBag.Message = "Welcome to ounline Conference Room Booking Center";
 
             return View();
         }
