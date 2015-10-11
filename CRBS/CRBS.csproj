@@ -245,8 +245,11 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Documents\CRBS_Database_Diagram.PNG" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Documents\Static Group User Story.doc" />
+    <Content Include="Documents\Wire Frame Diagram of CRBS.docx" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
