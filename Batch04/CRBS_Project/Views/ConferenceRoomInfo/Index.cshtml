@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CRBS_Project.Models.ConferenceRoomInfoModels>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PropertyTypeInfo.PropertyPurposeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RoomType.RoomTypeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PropertyName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PersonCapacity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FairAmount)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PropertyTypeInfo.PropertyPurposeName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RoomType.RoomTypeName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PropertyName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PersonCapacity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FairAmount)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PropertyId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PropertyId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PropertyId })
+        </td>
+    </tr>
+}
+
+</table>

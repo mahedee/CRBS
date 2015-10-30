@@ -1,0 +1,538 @@
+/* body{
+	background: #304D76;
+} */
+#header{
+	height: 60px;
+	background: #00ccff;
+	border-bottom: 7px solid #5A6061;
+}
+.company-name{
+	width: 100%;
+	color: #fff;
+}
+.company-name h1{
+	line-height: 40%;
+	margin-left: 4%;
+	font-weight: bolder;
+}
+.server-on{
+	width: 100%;
+	font-size: 1em;
+	text-align: left;
+	line-height: 55px;
+}
+.server-on a{
+	border: 3px solid #fff;
+	border-radius: 30px;
+	padding: 1px 5px;
+	color: #fff;
+	font-size: 16px;
+}
+.server-on a:before{
+	content:  '\f111';
+	font-family: FontAwesome;
+	color: #01FE03;
+	margin-right: 10px;
+}
+.server-on a:hover{
+	text-decoration: none;
+}
+
+
+
+.server-off{
+	width: 100%;
+	font-size: 1em;
+	text-align: left;
+	line-height: 55px;
+}
+.server-off a{
+	border: 3px solid #fff;
+	border-radius: 30px;
+	padding: 1px 10px;
+	color: #fff;
+}
+.server-off a:before{
+	content:  '\f111';
+	font-family: FontAwesome;
+	color: red;
+	margin-right: 10px;
+}
+.server-off a:hover{
+	text-decoration: none;
+}
+/*==========================company-logo============================*/
+/* #company-logo-image-area{
+	background: #304D76;
+} */
+.company-logo{
+	width: 100%;
+	height: 150px;
+	padding-top: 1.2%;
+	text-align: center;
+	line-height: 10.5;
+}
+/*====================================gss-alerts============================*/
+#user-login-area{
+	/* background: #304D76; */
+	padding-top: 2.5em;
+}
+.gss-alerts h4{
+	width: 70%;
+	margin-left: 46%;
+	background: #00ccff;
+	text-align: center;
+	color: #fff;
+	padding: 8px 0px;
+	margin-top: 0px;
+}
+.gss-alerts-massege{
+	background: #FFFFFF;
+	width: 70%;
+	height: 222px;
+	margin-left: 46%;
+	margin-top: -2%;
+	border-left: 10px solid #00ccff;
+	border-top: 1px solid #00ccff;
+	border-right: 1px solid #00ccff;
+	border-bottom: 3px solid #00ccff;
+}
+.alert-massege{
+	border-bottom: 1px solid #D0CCCC;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.gss-alerts-massege h6{
+	background: #D7D7D7;
+	width: 45%;
+	text-align: center;
+	padding: 4px 0px 1px 0px;
+	margin: 8px 0px 0px 4px;
+	border: 1px solid #00ccff;
+}
+.gss-alerts-massege p{
+	width: 92%;
+	padding: 5px 0px 5px 18px;
+	text-align: left;
+	color: #FC1314;
+	margin: 3px 0px 0px 4px;
+	border: 1px solid #D4D4D4;
+	box-shadow: 0px 0.0px 1px #D4D4D4;
+}
+/*===================================user-login=================================*/
+.user-login{
+	width: 70%;
+	height: 260px;
+	border: 1px solid #00ccff;
+	text-align: center;
+	margin-left: 27.5%;
+}
+.user-login h1 {
+	width: 100%;
+	height: 50px;
+	font-size: 1.8em;
+	background: #00ccff;
+	text-align: center;
+	color: #fff;
+	padding: 15px 0px 15px 0px;
+	margin-top: 0px;
+	margin-bottom: 15%;
+	position: relative;
+}
+.user-login h1:after {
+	content: "";
+	position: absolute;
+	right: 38%;
+	top: 100%;
+	width: 0px;
+	border-top: 26px solid #00ccff;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+}
+/*==========================User-Login-Bottom-Triangle-start=======================*/
+.user-login{
+	background: #FFFFFF;
+    position: relative;
+    margin-bottom: 3.7em;
+    border-bottom: 1px solid #00ccff;
+  }
+  .user-login:before, .user-login:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom: 0;
+  }
+  .user-login:before {
+    bottom: -16px;
+    left: 21px;
+    border-top-color: #00ccff;
+    border-width: 16px;
+    margin-left: 10.5%;
+  }
+  .user-login:after {
+    bottom: -15px;
+    left: 22px;
+    border-top-color: #fff;
+    border-width: 15px;
+    margin-left: 10.5%;
+  }
+/*==========================User-Login-Bottom-Triangle-End=======================*/
+/*==========================================================================*/
+/*==========================================================================*/
+.form-group input
+{
+  width: 90%;
+  padding-left: 2%;
+  position: relative;
+  border-radius: 0px;
+	top: 0px;
+	left: 13px;
+}
+.form-group i{
+  position: absolute;
+  font-size: 22px;
+  z-index: 1;
+  top: 36.6%;
+  right: 6%;
+  color: #c0bfbf;
+}
+.form-group-password i{
+	position: absolute;
+	font-size: 20px;
+	z-index: 1;
+	top: 55.4%;
+	right: 5.5%;
+	color: #c0bfbf;
+}
+#username{
+	margin-top: 10%;
+}
+#username, #password, #text{
+	margin-left: 5%;
+	padding-right: 8%;
+}
+@media(max-width: 350px){
+	.user-login, .gss-alerts-massege{
+		height: 250px;
+		margin-bottom: 50px;
+	}
+	#username{
+		margin-top: 15%;
+	}
+    .form-group input{
+      width: 90%;
+      position: relative;
+      padding-left: 2%;
+      padding-right: 10%;
+      border-radius: 0px;
+    }
+    .form-group i{
+      position: absolute;
+      font-size: 22px;
+      z-index: 1;
+      top: 33.4%;
+  	  right: 7%;
+  	  color: #c0bfbf;
+    }
+    .form-group-password i{
+      position: absolute;
+      font-size: 20px;
+      z-index: 1;
+      top: 53.4%;
+  	  right: 5.5%;
+  	  color: #c0bfbf;
+    }
+    .company-name h1{
+    	font-size: 1.2em;
+    	text-align: center;
+    }
+    .user-login h1{
+    	font-size: 1.5em;
+    }
+    .btn{
+    	padding-bottom: 5%;
+    }
+    .footer-right p{
+    	text-align: center;
+    	font-size: 0.8em;
+    }
+    .gss-alerts h4, .gss-alerts-massege, .user-login{
+    	margin-left: 15%;
+    }
+    .gss-alerts-massege h6 {
+    	width: 62%;
+    }
+    .gss-alerts-massege p {
+    	width: 95%;
+    	font-size: 11px;
+    }
+    .time{
+    	width: 70% !important;
+    	margin-left: 15% !important;
+    }
+    #time{
+  		font-size: 16px;
+    }
+}
+@media only screen and (min-width: 351px) and (max-width: 767px) {
+	.company-name h1{
+		font-size: 2em !important;
+		text-align: center !important;
+	}
+	.gss-alerts-massege {
+		margin-left: 15% !important;
+		margin-bottom: 5%;
+		padding-bottom: 45%;
+	}
+	.gss-alerts h4 {
+		margin-left: 15% !important;
+	}
+	.gss-alerts-massege h6 {
+		width: 50%;
+	}
+	.gss-alerts-massege p{
+		font-size: 12px;
+	}
+	.user-login {
+		margin-left: 15%;
+		height: 300px !important;
+	}
+	.form-group i{
+		top: 113px !important;
+	}
+	.form-group-password i {
+		top: 162px !important;
+	}
+	.time{
+		width: 70% !important;
+		margin-left: 15% !important;
+		padding-bottom: 5% !important;
+	}
+	.time h1{
+		font-size: 3em;
+	}
+	.footer-right{
+		text-align: center !important;
+		font-size: 1.1em !important;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.company-name  h1{
+		font-size: 2.2em;
+		text-align: center;
+	}
+	.gss-alerts-massege, .gss-alerts h4 {
+		width: 90%;
+		margin-left: 10%;
+	}
+	.gss-alerts-massege h6{
+		width: 75%;
+	}
+	.gss-alerts-massege p{
+		width: 95%;
+		font-size: 10px;
+		line-height: 12px;
+		padding: 5px 0px 5px 5px;
+		letter-spacing: 0.3px;
+	}
+	.user-login {
+		margin-left: 6%;
+		width: 90%;
+	}
+	.form-group i {
+		top: 32.6%;
+	}
+	.form-group-password i {
+		top: 52.4%;
+	}
+	.time{
+		width: 90% !important;
+		padding-bottom: 80% !important;
+		margin-left: 0px !important;
+	}
+	.time h1{
+		font-size: 1.7em;
+	}
+	.footer-left {
+		text-align: center !important;
+		padding-right: 0px !important;
+		font-size: 10.6px;
+	}
+	.footer-right{
+		font-size: 10.6px;
+		text-align: center !important;
+	}
+}
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+	.company-name h1{
+		text-align: center;
+		font-size: 2.3em !important;
+	}
+	.server-on, .server-off {
+		text-align: left;
+	}
+	.gss-alerts h4, .gss-alerts-massege {
+		width: 75%;
+		margin-left: 30%; 
+	}
+	.gss-alerts-massege h6 {
+		width: 50%;
+	}
+	.gss-alerts-massege p {
+  		width: 95%;
+  		padding: 5px 0px 5px 7px;
+  		font-size: 12px;
+	}
+	.user-login {
+  		width: 75%;
+  		height: 260px;
+  		margin-left: 15.5%;
+  	}
+  	.form-group i {
+  		top: 34.6%
+  	}
+  	.form-group-password i {
+  		top: 53.4%;
+  	}
+  	.time{
+  		width: 75% !important;
+  		margin-left: 0px !important;
+  		padding-bottom: 55% !important;
+  	}
+  	.time h2{
+  		font-weight: normal !important;
+  	}
+  	.time h1{
+  		font-size: 2.4em;
+  	}
+  	.footer-left {
+		text-align: center !important;
+		padding-right: 0% !important;
+		font-size: 12px;
+	}
+	.footer-right {
+		font-size: 12px;
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1160px) {}
+@media only screen and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+.btn{
+  width: 90%;
+  background: #00ccff;
+  border: none;
+  border-radius: 0px;
+  color: #fff;
+  font-weight: bolder;
+}
+.btn:hover{
+  background: #00ccff;
+  color: #fff;
+  border-bottom: 3px solid #0ab4de;
+}
+.my-button button{
+    width: 90%;
+    height: 40px;
+    margin-top: 1%;
+    background: #00ccff;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #fff;
+    border-top: none;
+    border-right: none;
+    border-bottom: 3px solid #0ab4de;
+    border-left: none;
+    line-height: 28px;
+    position: relative;
+	top: -20px;
+	left: 0px;
+}
+.my-button button:before{
+  width: 70%;
+  height: 40px;
+  content: "\f011";
+  font-family: FontAwesome;
+  float: left;
+  padding-right: 55%;
+  left: 0;
+  position: absolute;
+}
+/*================================================================================*/
+/*================================================================================*/
+.user-login input:hover, .user-login input:hover, .user-login input:hover{
+   	border-color: #00ccff;
+}
+/*===============================Time================================*/
+.time{
+	background: #FFFFFF;
+	padding-bottom: 1%;
+	width: 65%;
+	margin-left: 8%;
+	text-align: center;
+	border: 1px solid #00ccff;
+}
+.time h2{
+	background: #00ccff;
+	margin-top: 0;
+	color: #fff;
+	font-weight: bolder;
+	padding-top: 1px;
+	font-size:1.3em;
+	padding: 5px 0px;
+	letter-spacing: 1px;
+}
+#time{
+	color:#00ccff;
+	font-size:1em;
+	font-weight: bold;
+	/* text-shadow: 0.1px 1.5px 1px #575555; */
+}
+/*===============================footer==================================*/
+#footer{
+	width: 100%;
+	color: #111;
+	line-height: 30px;
+	font-weight: bolder;
+	margin-top: 5%;
+}
+.footer-left{
+	text-align: right;
+	padding-right: 5%;
+}
+.footer-right{
+	text-align: left;
+}
+@media only screen and (min-width: 240px) and (max-width: 768px) {
+	.company-logo {
+		height: auto !important;
+		line-height: 0;
+	}
+	.company-logo img{
+		width: 20%;
+	}
+	#time{
+		font-size:24px;
+	}
+}
+html, 
+body{
+	margin: 0;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.wrapper{
+	padding: 5px;
+	height: auto;
+}
+footer{
+	background-color: #00ccff;
+	display: table-row;
+	height: 1px;
+	color: #fff;
+	font-family: Nirmala UI;
+	letter-spacing: 1px;
+}

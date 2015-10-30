@@ -1,0 +1,64 @@
+﻿@model CRBS_Project.Models.ConferenceRoomInfoModels
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ConferenceRoomInfoModels</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PropertyTypeInfo.PropertyPurposeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PropertyTypeInfo.PropertyPurposeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RoomType.RoomTypeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RoomType.RoomTypeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PropertyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PropertyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PersonCapacity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PersonCapacity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FairAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FairAmount)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
